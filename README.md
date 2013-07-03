@@ -7,4 +7,4 @@ Dependencies:
   [tornado](http://www.tornadoweb.org 'Tornado')
 
 Usage:
-  `python server.py`
+  `python server.py` then point your browser to localhost:8888

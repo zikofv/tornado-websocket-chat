@@ -1,4 +1,9 @@
-tornado-websockets-chat
+tornado-websocket-chat
 =======================
 
-A very basic chat built with tornado using websockets.
+A very basic websocket based chat built with tornado.
+
+Dependencies:
+  [tornado](www.tornadoweb.org 'Tornado')
+Usage:
+  `python server.py`

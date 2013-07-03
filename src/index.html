@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="/static/app.js"></script>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    <form id="chat_form" method="post">
+        <input type="text" name="text" />
+        <input type="submit" value="Send!" />
+    </form>
+    <p id="log"></p>
+    <div id="mydiv"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.</p></div>
+    <div id="js_ops">
+      <ul>
+      {% for num, name in js_ops_names %}
+      <li><a id="{{ num }}" href="#" class="js_op">{{ name }}</a></li>
+      {% end %}
+      </ul>
+    </div>
+</body>
+</html>
